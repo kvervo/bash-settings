@@ -1,0 +1,25 @@
+﻿ABOUT
+
+Personal Bash Settings for wrokign with git.
+
+Based on
+https://github.com/nikitug/bash-settings
+&
+http://stevehodgkiss.com/posts/speed-up-your-git-workflow-with-bash-aliases
+
+HOW TO
+
+Linux
+  1. clone this repo to ~/.bash
+  2. add the following line into ~/.bash_login (or .bashrc):
+
+    . ~/.bash/<configuration-name>.sh
+  3. reload the shell
+ 
+Windows
+  1. clone this repo to %UserProfile%
+  2. add the following line to %UserProfile%/.bash_login:
+	. %UserProfile%/<configuration-name>.sh
+  3. reload the shell
+
+Files are stored in UTF±8 encoding.
