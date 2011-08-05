@@ -17,7 +17,7 @@ alias glg='git log --graph --pretty=format:%Cred%h%Creset -%C(yellow)%d%Creset %
 alias gw='!sh -c git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\" -'
 alias gb='git branch'
 alias gba='git branch -a'
-alias gbr='=git ls-remote'
+alias gbr='git ls-remote'
 alias gco='git checkout'
 alias gr='git remote -v'
 alias gdel='git branch -d'
