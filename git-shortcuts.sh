@@ -14,7 +14,7 @@ alias gk='gitk'
 alias gka='gitk --all'
 alias gll='git show -s --pretty="tformat:%h (%s, %ad)" --date=short'
 alias glg='git log --graph --pretty="format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
-alias gw='!sh -c git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\" -'
+alias gwho="sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\" --author=\"$1\"' -"
 alias gb='git branch'
 alias gba='git branch -a'
 alias gbr='git ls-remote'
