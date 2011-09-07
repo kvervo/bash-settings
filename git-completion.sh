@@ -2778,6 +2778,16 @@ _gitk ()
 	__git_complete_revlist
 }
 
+_complete_git() {
+  if [ -d .git ]; then
+    branches=`git branch -a | cut -c 3-`
+    tags=`git tag`
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    COMPREPLY=( $(compgen -W "${branches} ${tags}" -- ${cur}) )
+  fi
+}
+complete -F _complete_git gco
+
 complete -o bashdefault -o default -o nospace -F _git git 2>/dev/null \
 	|| complete -o default -o nospace -F _git git
 complete -o bashdefault -o default -o nospace -F _gitk gitk 2>/dev/null \

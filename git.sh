@@ -1,9 +1,11 @@
 _dir=$dir
 dir=`dirname $BASH_SOURCE`
 
-. $dir/git-completion.sh
 . $dir/git-shortcuts.sh
+. $dir/git-completion.sh
+. $dir/code-shortcuts.sh
 . $dir/bash-shortcuts.sh
+
 
 cd /d/Code
 
