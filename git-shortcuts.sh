@@ -1,4 +1,5 @@
 # Git shortcuts
+alias gcl='git clone'
 alias gs='git status; git submodule status'
 alias ga='git add'
 alias gc='git commit -m'
