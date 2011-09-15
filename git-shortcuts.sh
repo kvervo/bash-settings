@@ -33,7 +33,8 @@ alias gups='git reset --hard'
 
 # Git submodule shortcuts
 alias gsa='git submodule add'
-alias gsu='git submodule update --init'
+alias gsu='git submodule update'
+alias gsui='git submodule update --init'
 
 # Git SVN shortcuts
 alias svni='git svn init'
