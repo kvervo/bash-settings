@@ -32,11 +32,13 @@ alias gd2='echo "git diff HEAD^"; git diff HEAD^'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias grmall="git status | grep 'deleted:' | awk '{print \$3}' | xargs git rm -f"
 alias gups='git reset --hard'
+alias gst='git stash'
+alias gt='git tag'
 
 # Git submodule shortcuts
 alias gsa='git submodule add'
-alias gsu='git submodule update'
-alias gsui='git submodule update --init'
+#alias gsu='git submodule update'
+alias gsu='git submodule update --init'
 
 # Git SVN shortcuts
 alias svni='git svn init'
