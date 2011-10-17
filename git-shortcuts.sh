@@ -7,16 +7,16 @@ alias gcm='git commit -m'
 alias gca='git commit -a -m'
 alias gcc='git gc --aggressive'
 alias gull='git pull'
-alias gush='git push'
+alias gush='git push --recurse-submodules=check'
 alias gf='git fetch'
 #alias gm='git merge'
 alias gm='git merge --no-ff'
 alias gsh='git show'
-alias gl='git log'
+alias gl='git log --decorate'
 alias gk='gitk'
 alias gka='gitk --all'
 alias gll='git show -s --pretty="tformat:%h (%s, %ad)" --date=short'
-alias glg='git log --graph --pretty="format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
+alias glg='git log --decorate --graph --pretty="format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
 alias gwho="sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\" --author=\"$1\"' -"
 alias gb='git branch'
 alias gba='git branch -a'
@@ -32,7 +32,7 @@ alias gd2='echo "git diff HEAD^"; git diff HEAD^'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias grmall="git status | grep 'deleted:' | awk '{print \$3}' | xargs git rm -f"
 alias gups='git reset --hard'
-alias gst='git stash'
+alias gst='git stash --include-untracked'
 alias gt='git tag'
 
 # Git submodule shortcuts
