@@ -1,6 +1,7 @@
 # Git shortcuts
 alias gcl='git clone'
-alias gs='git status; git submodule status'
+alias gs='git status'
+alias gss='git status; git submodule status'
 alias ga='git add'
 alias gc='git commit'
 alias gcwtf='msg="`curl http://whatthecommit.com/index.txt 2>/dev/null`"; git commit -m "${msg} via http://whatthecommit.com/"'
@@ -35,6 +36,7 @@ alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias grmall="git status | grep 'deleted:' | awk '{print \$3}' | xargs git rm -f"
 alias gups='git reset --hard'
 alias gst='git stash --include-untracked'
+alias gstp='git stash pop'
 alias gt='git tag'
 
 # Git submodule shortcuts
