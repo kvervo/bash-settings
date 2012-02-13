@@ -1,7 +1,7 @@
 # Git shortcuts
 alias gcl='git clone'
-alias gs='git status'
-alias gss='git status; git submodule status'
+alias gs='git status -s'
+alias gss='git status -s; echo "## Submodules ##";git submodule status'
 alias ga='git add'
 alias gc='git commit'
 alias gcwtf='msg="`curl http://whatthecommit.com/index.txt 2>/dev/null`"; git commit -m "${msg} via http://whatthecommit.com/"'
