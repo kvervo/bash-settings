@@ -7,7 +7,6 @@ alias gc='git commit'
 alias gcwtf='msg="`curl http://whatthecommit.com/index.txt 2>/dev/null`"; git commit -m "${msg} via http://whatthecommit.com/"'
 alias gcm='git commit -m'
 alias gca='git commit -a -m'
-alias gcc='git gc --aggressive'
 alias gull='git pull'
 alias gush='git push --recurse-submodules=check'
 alias gushc='git push --recurse-submodules=check'
@@ -38,6 +37,12 @@ alias gups='git reset --hard'
 alias gst='git stash --include-untracked'
 alias gstp='git stash pop'
 alias gt='git tag'
+
+# Git Maintenance
+alias gcc='git gc --aggressive'
+alias gfsck='git fsck --full'
+alias gcount='git count-objects -v'
+alias gprune='git prune -v'
 
 # Git submodule shortcuts
 alias gsa='git submodule add'
