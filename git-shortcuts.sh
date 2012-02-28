@@ -1,13 +1,16 @@
 # Git shortcuts
-alias gcl='git clone'
-alias gs='git status -s'
-alias gss='git status -s; echo "## Submodules ##";git submodule status'
-alias ga='git add'
+
+# Git Commit
 alias gc='git commit'
 alias gcsu='git commit -m "SUBMODULE UPDATE"'
 alias gcwtf='msg="`curl http://whatthecommit.com/index.txt 2>/dev/null`"; git commit -m "${msg} via http://whatthecommit.com/"'
 alias gcm='git commit -m'
 alias gca='git commit -a -m'
+
+alias gcl='git clone'
+alias gs='git status -s'
+alias gss='git status -s; echo "## Submodules ##";git submodule status'
+alias ga='git add'
 alias gull='git pull'
 alias gush='git push --recurse-submodules=check'
 alias gushc='git push --recurse-submodules=check'
@@ -15,7 +18,7 @@ alias gf='git fetch'
 #alias gm='git merge'
 alias gm='git merge --no-ff'
 alias gsh='git show'
-alias gl='git log --decorate'
+alias gl='git log --decorate --stat -C'
 alias gk='gitk'
 alias gka='gitk --all'
 alias gll='git show -s --pretty="tformat:%h (%s, %ad)" --date=short'
@@ -38,6 +41,15 @@ alias gups='git reset --hard'
 alias gst='git stash --include-untracked'
 alias gstp='git stash pop'
 alias gt='git tag'
+
+# Git Configuration
+alias gconfig='git config --global --list'
+
+# Git Search
+alias ggFind='git log -g --pretty=format:%h -S'
+alias gFind='git log --pretty=format:%h -S'
+alias gGFing='git log --pretty=format:%h -G'
+alias gCFind='git log --grep="string in a commit message" --all --pretty=format:%h'
 
 # Git Maintenance
 alias gcc='git gc --aggressive'
