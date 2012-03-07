@@ -32,6 +32,7 @@
 */*/[Bb]in
 lib/*/*/[Oo]bj
 lib/*/*/[Bb]in
+*/ClientBin
 
 # Compiled source #
 ###################
@@ -80,3 +81,8 @@ ISETool.bat
 #########
 *.ReSharper.*
 _ReSharper.*/
+XapsMinifier.config
+*.userprefs
+*.pidb
+[Bb]uild
+*/csslint.xml
