@@ -36,7 +36,7 @@ git config --global push.default current
 
 # Branch #
 ##########
-git config --global branch.autosetuprebase always
+#git config --global branch.autosetuprebase always
 
 # Show result #
 ###############
