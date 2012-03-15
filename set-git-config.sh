@@ -35,6 +35,11 @@ git config --global core.excludesfile $PWD/.gitexcludes
 # current push the current branch to a branch of the same name.
 git config --global push.default current
 
+# Push Default #
+################
+git config --global branch.master.remote origin
+git config --global branch.master.merge refs/heads/master
+
 # Branch #
 ##########
 #git config --global branch.autosetuprebase always
