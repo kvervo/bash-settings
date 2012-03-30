@@ -25,7 +25,7 @@
 
 3. reload the shell
 
-# Files #
+## FILES ##
 
 - **set-git-config.sh** :: A git configuration script. It will set most used settings as Identity, Color, Push default. Usage:
 
