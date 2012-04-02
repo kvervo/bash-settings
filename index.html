@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Bash-settings by kvervo</title>
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Bash-settings</h1>
+        <p>Personal Bash Settings</p>
+        <p class="view"><a href="https://github.com/kvervo/bash-settings">View the Project on GitHub <small>kvervo/bash-settings</small></a></p>
+        <ul>
+          <li><a href="https://github.com/kvervo/bash-settings/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/kvervo/bash-settings/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/kvervo/bash-settings">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Personal Bash &amp; Git Settings</h1>
+<blockquote>
+<p>Based on
+<a href="https://github.com/nikitug/bash-settings">https://github.com/nikitug/bash-settings</a>
+&amp;
+<a href="http://stevehodgkiss.com/posts/speed-up-your-git-workflow-with-bash-aliases">http://stevehodgkiss.com/posts/speed-up-your-git-workflow-with-bash-aliases</a></p>
+</blockquote>
+<h2>HOW TO</h2>
+
+<h3>Linux</h3>
+
+<ol>
+<li>clone this repo to ~/.bash</li>
+<li>
+<p>add the following line into ~/.bash_login (or .bashrc):</p>
+
+<p><code>. ~/.bash/git.sh</code></p>
+</li>
+<li><p>reload the shell</p></li>
+</ol><h3>Windows</h3>
+
+<ol>
+<li>clone this repo to %UserProfile%</li>
+<li>
+<p>add the following line to %UserProfile%/.bash_login:</p>
+
+<p><code>. %UserProfile%/git.sh</code></p>
+</li>
+<li><p>reload the shell</p></li>
+</ol><h2>FILES</h2>
+
+<ul>
+<li>
+<p><strong>set-git-config.sh</strong> :: A git configuration script. It will set most used settings as Identity, Color, Push default. Usage:</p>
+
+<p><code>./set-git-config.sh "Your Name" "your@email.com"</code></p>
+</li>
+<li><p><strong>.gitexcludes</strong> :: This file is a global file to ignore things that probably shouldn't be committed to git.</p></li>
+<li><p><strong>git.sh</strong> :: Script that initializes all other scripts</p></li>
+<li><p><strong>git-shortcuts.sh</strong> :: Describes all available aliases for git</p></li>
+<li><p><strong>bash-shortcuts.sh</strong> :: Simple bash aliases for cd/clear/ls</p></li>
+<li><p><strong>git-completion.sh</strong> :: Bash completion support for core Git. <code>Copyright (C) 2006,2007 Shawn O. Pearce &lt;spearce@spearce.org&gt;</code></p></li>
+</ul><h2>notes</h2>
+
+<ul>
+<li><em>Files are stored in UTF±8 encoding.</em></li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/kvervo">kvervo</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
