@@ -30,8 +30,14 @@
 */[Bb]in
 */*/[Oo]bj
 */*/[Bb]in
+*/*/*/[Oo]bj
+*/*/*/[Bb]in
+*/*/*/*/[Oo]bj
+*/*/*/*/[Bb]in
 lib/*/*/[Oo]bj
 lib/*/*/[Bb]in
+lib/*/*/*/[Oo]bj
+lib/*/*/*/[Bb]in
 */ClientBin
 
 # Compiled source #
@@ -85,3 +91,4 @@ XapsMinifier.config
 *.pidb
 [Bb]uild
 */csslint.xml
+!KindOfMagic.exe
