@@ -34,9 +34,11 @@ alias gka='gitk --all'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gbr='git ls-remote'
+alias gbm='git branch -m'
 alias gco='git checkout'
 alias gdel='git branch -d'
 alias gnew='git checkout -b'
+
 
 # Git Remote
 alias gr='git remote -v'
