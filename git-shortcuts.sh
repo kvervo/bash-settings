@@ -18,6 +18,7 @@ alias gull='git pull origin'
 alias gush='git push --recurse-submodules=check origin'
 alias gf='git fetch'
 alias gm='git merge --no-ff'
+alias gmt='git mergetool'
 alias gsh='git show'
 
 # Git log
