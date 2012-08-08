@@ -15,7 +15,9 @@ alias gss='git status -s; echo "## Submodules ##";git submodule status'
 alias gcl='git clone'
 alias ga='git add'
 alias gull='git pull origin'
+alias gullm='git pull upstream'
 alias gush='git push --recurse-submodules=check origin'
+alias gushm='git push --recurse-submodules=check upstream'
 alias gf='git fetch'
 alias gm='git merge --no-ff'
 alias gmt='git mergetool -y'
@@ -58,7 +60,8 @@ alias gstp='git stash pop'
 alias gt='git tag'
 
 # Git Configuration
-alias gconfig='git config --global --list'
+alias ggconfig='git config --global --list'
+alias glconfig='git config --local --list'
 
 # Git Search
 alias ggFind='git log -g --pretty=format:%h -S'
