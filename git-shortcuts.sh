@@ -28,6 +28,7 @@ alias gl='git log --decorate --stat -C'
 alias gll='git show -s --pretty="tformat:%h (%s, %ad)" --date=short'
 alias glg='git log --decorate --graph --pretty="format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
 alias gwho="sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\" --author=\"$1\"' -"
+alias gstats="git shortlog --numbered --summary"
 
 # Gitk
 alias gk='gitk'
