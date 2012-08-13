@@ -93,6 +93,9 @@ XapsMinifier.config
 */csslint.xml
 !KindOfMagic.exe
 
+# NUGET #
+#########
+packages
 
 # HTML #
 ########
