@@ -62,8 +62,8 @@ alias gstp='git stash pop'
 alias gt='git tag'
 
 # Git Configuration
-alias ggconfig='git config --global --list'
-alias glconfig='git config --local --list'
+alias gconfig='git config -l'
+alias geconfig='git config -e' # open config on editor
 
 # Git Search
 alias ggFind='git log -g --pretty=format:%h -S'
