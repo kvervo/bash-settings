@@ -27,7 +27,7 @@ fi
 # Identity #
 ############
 git config --local --unset-all user.name
-git config --local user.name $1
+git config --local user.name "$1"
 git config --local --unset-all user.email
-git config --local user.email $2
+git config --local user.email "$2"
 }
