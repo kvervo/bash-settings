@@ -7,9 +7,6 @@ dir=`dirname $BASH_SOURCE`
 . $dir/code-shortcuts.sh # personal bash script. This line should be deleted
 . $dir/bash-shortcuts.sh 
 
-# This is the start path for git bash
-cd /d/Code
-
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWSTASHSTATE=true
