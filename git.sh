@@ -22,7 +22,7 @@ TEAL="\[\033[0;36m\]"
 GRAY="\[\033[0;37m\]"
 WHITE="\[\033[0;38m\]"
 
-PS1="\n$PURPLE\h:$GRAY\W\n$GREEN\$(__git_ps1 '(%s)')$WHITE\$ "
+PS1="\n$YELLOW\h:$GRAY\W\n$TEAL\$(__git_ps1 '(%s)')$WHITE\$ "
 
 #export PS1="\[\033[0;33m\]\$(__git_ps1 '%s ')\[\033[00m\]$PS1"
 
