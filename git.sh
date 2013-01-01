@@ -1,11 +1,13 @@
+#!/bin/bash
 # Execute all shortcuts files
 _dir=$dir
 dir=`dirname $BASH_SOURCE`
 
 . $dir/git-shortcuts.sh
+. $dir/git-prompt.sh
 . $dir/git-completion.sh
 . $dir/code-shortcuts.sh # personal bash script. This line should be deleted
-. $dir/bash-shortcuts.sh 
+. $dir/bash-shortcuts.sh
 
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
