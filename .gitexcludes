@@ -79,7 +79,7 @@ ISETool.bat
 
 # OS generated files #
 ######################
-.DS_Store*
+.DS_Store
 [Tt]humbs.db 
 
 # Other #
