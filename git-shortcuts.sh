@@ -3,13 +3,13 @@
 # Git Commit
 alias gc='git commit'
 alias gcsu='git commit -m "SUBMODULE UPDATE"'
-# alias gcwtf='msg="`curl http://whatthecommit.com/index.txt 2>/dev/null`"; git commit -m "${msg} via http://whatthecommit.com/"'
+alias gcwtf='msg="`curl http://whatthecommit.com/index.txt 2>/dev/null`"; git commit -m "${msg} via http://whatthecommit.com/"'
 alias gcm='git commit -m'
 alias gca='git commit -a -m'
 
 # Git Status
 alias gs='git status -s'
-#alias gss='git status -s; echo "## Submodules ##";git submodule status'
+alias gss='git status -s; echo "## Submodules ##";git submodule status'
 
 # Git usual workflow commands
 alias gcl='git clone'
