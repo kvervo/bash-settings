@@ -19,7 +19,7 @@ alias gullm='git pull upstream'
 alias gush='git push --recurse-submodules=check origin'
 alias gushm='git push --recurse-submodules=check upstream'
 alias gf='git fetch'
-alias gm='git merge --no-ff'
+alias gm='git merge --no-ff --no-edit'
 alias gmt='git mergetool -y'
 alias gsh='git show'
 
