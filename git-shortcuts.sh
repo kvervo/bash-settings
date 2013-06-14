@@ -34,6 +34,10 @@ alias gstats="git shortlog --numbered --summary"
 alias gk='gitk'
 alias gka='gitk --all'
 
+# GitX
+alias gx='gitx'
+alias gxa='gitx --all'
+
 # Git branch
 alias gb='git branch'
 alias gba='git branch -a'
