@@ -34,8 +34,8 @@ YELLOWBOLD="\[\033[1;33m\]"
 WHITE="\[\033[0;38m\]"
 WHITEBOLD="\[\033[1;38m\]"
 
-PS1="\n$YELLOW\u@\h:$GRAY\$PWD $TEALBOLD\$(__git_ps1 '(%s)')\n\[\033[0;37m\]🅐  "
+PS1="\n$YELLOW\u@\h:$GRAY\$PWD $TEALBOLD\$(__git_ps1 '(%s)')\n\[\033[0;37m\]▏"
 
-# 👻 ࿘ Ⓚ 🅐
+# 👻 ࿘ Ⓚ 🅐 ┇ ꙩ ꙭ ꝋ ┃ ▏⠇
 
 dir=$_dir
