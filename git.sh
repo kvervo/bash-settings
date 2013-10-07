@@ -3,9 +3,9 @@
 _dir=$dir
 dir=`dirname $BASH_SOURCE`
 
+. $dir/git-completion.sh
 . $dir/git-shortcuts.sh
 . $dir/git-prompt.sh
-. $dir/git-completion.sh
 . $dir/code-shortcuts.sh # personal bash script. This line should be deleted
 . $dir/bash-shortcuts.sh
 
@@ -34,7 +34,7 @@ YELLOWBOLD="\[\033[1;33m\]"
 WHITE="\[\033[0;38m\]"
 WHITEBOLD="\[\033[1;38m\]"
 
-PS1="\n$YELLOW\u@\h:$GRAY\$PWD $TEALBOLD\$(__git_ps1 '(%s)')\n\[\033[0;37m\]▏"
+PS1="\n$YELLOW\u@\h:$GRAY\$PWD $TEALBOLD\$(__git_ps1 '(%s)')\n\[\033[0;36m\]▏$GRAY"
 
 # 👻 ࿘ Ⓚ 🅐 ┇ ꙩ ꙭ ꝋ ┃ ▏⠇
 

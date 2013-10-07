@@ -45,6 +45,7 @@ alias gbr='git ls-remote'
 alias gbm='git branch -m'
 alias gdel='git branch -d'
 alias gnew='git checkout -b'
+alias gbset='git branch --set-upstream-to'
 
 # Git checkout
 alias gco='git checkout'
