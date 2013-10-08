@@ -39,3 +39,5 @@ PS1="\n$YELLOW\u@\h:$GRAY\$PWD $TEALBOLD\$(__git_ps1 '(%s)')\n\[\033[0;36m\]▏$
 # 👻 ࿘ Ⓚ 🅐 ┇ ꙩ ꙭ ꝋ ┃ ▏⠇
 
 dir=$_dir
+
+function gi() { curl http://gitignore.io/api/$@ ;}
