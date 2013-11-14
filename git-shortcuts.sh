@@ -78,7 +78,7 @@ alias gGFing='git log --pretty=format:%h -G'
 alias gCFind='git log --grep="string in a commit message" --all --pretty=format:%h'
 
 # Git Maintenance
-alias gcc='git gc --aggressive'
+alias ggc='git gc --aggressive'
 alias gfsck='git fsck --full'
 alias gcount='git count-objects -v'
 alias gprune='git prune -v'
